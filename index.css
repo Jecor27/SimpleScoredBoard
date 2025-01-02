@@ -41,7 +41,7 @@ button {
     font-family: 'digital-clock-font';
     border-radius: 5px;
     color: #9AABD8;
-    border: 2px solid
+    border: 2px solid;
 }
 
 h3 {
@@ -52,4 +52,7 @@ h3 {
 @font-face {
     font-family: 'digital-clock-font';
     src: url(./Digital.TTF);
+}
+#reset{
+    margin-top: 20px;
 }

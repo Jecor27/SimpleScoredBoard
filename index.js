@@ -40,3 +40,14 @@ function addThreeAgain() {
     guestPoints += 3;
     score2.textContent = guestPoints;
 }
+const resetButton = document.getElementById('reset');
+const para = document.querySelectorAll('h2');
+//console.log(para)
+
+resetButton.addEventListener ("click", () => {
+    homePoints = 0;
+    guestPoints = 0;
+    score.textContent = "0"; // Reset home score display
+    score2.textContent = "0"; // Reset guest score display
+    console.log("Scores have been reset");
+});
