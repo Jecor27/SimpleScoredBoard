@@ -4,7 +4,7 @@ body {
     background-color: #1B244A;
 }
 
-.score {
+#score {
     background: #0a0001;
     font-size: 90px;
     font-family: 'digital-clock-font';
@@ -15,7 +15,7 @@ body {
     
 }
 
-.score2 {
+#score2 {
     background: #0a0001;
     font-size: 90px;
     font-family: 'digital-clock-font';
